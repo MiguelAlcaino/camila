@@ -1,4 +1,5 @@
 # camila
 
-yarn serve
-yarn dev
+`yarn serve`
+
+`yarn dev`
