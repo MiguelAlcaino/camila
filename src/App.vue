@@ -19,8 +19,6 @@
 
 <script>
 
-import fscreen from 'fscreen';
-
 export default {
   name: 'app',
     data: function(){
@@ -54,17 +52,6 @@ export default {
         },
 
         playVideos: async function(){
-            let self = this;
-            // if (fscreen.fullscreenEnabled) {
-            //     fscreen.addEventListener('fullscreenchange', function handler() {
-            //         if (fscreen.fullscreenElement !== null) {
-            //             self.debug ='Entered fullscreen mode';
-            //         } else {
-            //             self.debug = 'Exited fullscreen mode';
-            //         }
-            //     }, false);
-            //     fscreen.requestFullscreen(this.$refs.videoPlayer);
-            // }
             let keepPlaying = true;
             let index = 0;
             this.showProgram = false;
