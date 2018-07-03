@@ -12,4 +12,5 @@ if (process.env.NODE_ENV === 'DEV') {
 app.on('ready', () => {
     let window = new BrowserWindow({width: 800, height: 600});
     window.loadURL(url);
+    window.setFullScreen(true);
 });
