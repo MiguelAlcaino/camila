@@ -1,5 +1,10 @@
 # camila
+Install dependencies
+--------
 
-`yarn serve`
+`yarn install`
 
-`yarn dev`
+Create dev env
+-------------
+ - `yarn serve`
+ - `yarn dev`
